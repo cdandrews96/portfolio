@@ -3,7 +3,6 @@ body {
 }
 
 .max-width {
-    max-width: 1200px;
+    max-width: 420px;
     margin: 0 auto;
 }
-
