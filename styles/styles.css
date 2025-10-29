@@ -1,3 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+p, a {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Menu Styles */
 
 .logo {
@@ -5,6 +28,11 @@
 }
 
 header {
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+.menu-full {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,19 +51,30 @@ header {
 
 /* Body Styles */
 
+.hero {
+    padding: 60px 0;
+}
+
+.hero h1 {
+    margin-bottom: 0;
+}
+
 .profile-img {
     width: 100%;
     border-radius: 5px;
 }
 
-/* Box Shadows
-
-.box-shadow-2 {
-	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+.projects {
+    background-color:  #2d2e25;
+    color: #fff;
+    padding: 60px 0;
 }
 
-.box-shadow-3 {
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+.projects img {
+    width: 100%;
+    border-radius: 5px;
 }
 
-*/
+.single-project {
+    margin-top: 1em;
+}
