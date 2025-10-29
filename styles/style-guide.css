@@ -1,11 +1,11 @@
 /* Box Shadows */
 
 .box-shadow-2 {
-	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .box-shadow-3 {
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 body {
@@ -22,4 +22,11 @@ body {
     max-width: 30%;
     height: 2px;
     background-color: #2d2e25;
+}
+
+.divider-light {
+    margin-top: .5em;
+    max-width: 30%;
+    height: 2px;
+    background-color: #ecebe4;
 }
