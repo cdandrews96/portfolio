@@ -17,6 +17,14 @@ body {
     margin: 0 auto;
 }
 
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
 .divider {
     margin-top: .5em;
     max-width: 30%;
