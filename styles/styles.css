@@ -119,6 +119,14 @@ header {
     padding: 16px 32px;
 }
 
+.text-link {
+    color: #2d2e25;
+}
+
+.text-link:hover {
+    color: #817E9F;
+}
+
 /* CTA Styles */
 .cta {
     padding: 60px 0;
@@ -135,11 +143,11 @@ header {
 }
 
 /* Case Studies */
-.case-study {
+.case-study, .project-hero {
     padding: 60px 0;
 }
 
-.case-study img {
+.project-hero img, .case-study img {
     width: 100%;
     border-radius: 5px;
 }
@@ -153,7 +161,7 @@ header {
     padding: 15px 0;
 }
 
-.case-study a {
+.visit a {
     text-decoration: none;
     padding: 10px 30px;
     background-color: #2d2e25;
@@ -163,7 +171,7 @@ header {
     transition: .3s;
 }
 
-.case-study a:hover {
+.visit a:hover {
     border: 3px solid #2d2e25;
     background-color: #ecebe4;
     color: #2d2e25;
