@@ -8,13 +8,16 @@
     }
 
     .hero {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .intro {
         padding-right: 50px;
+    }
+
+    .intro h1 {
+        font-size: 3.2em;
     }
 
     .profile {

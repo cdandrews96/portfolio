@@ -84,6 +84,13 @@ header {
     margin-bottom: 0;
 }
 
+.intro {
+    text-align: center;
+    margin: 0 auto;
+    justify-self: center;
+    align-self: center;
+}
+
 .profile-img {
     width: 100%;
     border-radius: 5px;
