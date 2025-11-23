@@ -89,7 +89,7 @@ header {
     border-radius: 5px;
 }
 
-.projects {
+.projects, .motions-projects {
     background-color: #2d2e25;
     color: #fff;
     padding: 60px 0;
@@ -125,6 +125,34 @@ header {
 
 .text-link:hover {
     color: #817E9F;
+}
+
+/* Motion Graphics Styles */
+
+.single-animation {
+    padding-top: 15px;
+}
+
+.vid-project {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.vid-project a {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #2d2e25;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid #ecebe4;
+    transition: .3s;
+}
+
+.vid-project a:hover {
+    border: 3px solid #ecebe4;
+    background-color: #ecebe4;
+    color: #2d2e25;
+    transition: .3s;
 }
 
 /* CTA Styles */

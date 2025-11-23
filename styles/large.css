@@ -27,6 +27,12 @@
         grid-gap: 1em;
     }
 
+    .motions-projects .max-width {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
     .projects .max-width h2, .divider-light {
         grid-column: 1/4;
         text-align: center;
