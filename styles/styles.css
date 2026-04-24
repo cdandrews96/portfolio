@@ -97,7 +97,8 @@ header {
     border-radius: 5px;
 }
 
-.projects, .motions-projects {
+.projects,
+.motions-projects {
     background-color: #2d2e25;
     color: #fff;
     padding: 60px 0;
@@ -118,6 +119,10 @@ header {
     opacity: 0.7;
     transform: scale(1.05);
     transition: .3s;
+}
+
+.single-project {
+    text-align: center;
 }
 
 .text {
@@ -179,11 +184,13 @@ header {
 }
 
 /* Case Studies */
-.case-study, .project-hero {
+.case-study,
+.project-hero {
     padding: 60px 0;
 }
 
-.project-hero img, .case-study img {
+.project-hero img,
+.case-study img {
     width: 100%;
     border-radius: 5px;
 }
