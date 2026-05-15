@@ -49,3 +49,7 @@ body {
     height: 2px;
     background-color: #ecebe4;
 }
+
+li {
+    padding: 5px 0;
+}

@@ -72,4 +72,8 @@
         padding-left: 30px;
         padding-top: 0;
     }
+
+    .work-history h2 {
+        text-align: center;
+    }
 }
