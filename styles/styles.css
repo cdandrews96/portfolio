@@ -241,3 +241,7 @@ header {
 .links a:hover {
     text-decoration: underline;
 }
+
+.hero-center h1 {
+    text-align: center;
+}

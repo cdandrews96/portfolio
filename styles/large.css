@@ -80,4 +80,10 @@
     .work-history h2 {
         text-align: center;
     }
+
+    .buttons-aligned {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
 }
